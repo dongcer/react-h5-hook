@@ -1,7 +1,7 @@
 import React, { useState, useMemo, memo, Fragment, useCallback, useContext } from 'react';
 import Child from "./Child";
 import { Context } from "../useRedux";
-
+//hooks 独有优化方式memo
 const ChildMemo = memo(Child)
 
 
