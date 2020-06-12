@@ -2,7 +2,7 @@ import React, { memo } from "react";
 
 import ShowArea from './ShowArea'
 import Buttons from './Buttons'
-import Swiper from "../../components/Swiper";
+import Swiper from "components/Swiper";
 function UseReduxDemo () {
   return (
     <div style={{ height: '600px', overflow: 'hidden', border: '1px solid green', padding: '20px' }}>

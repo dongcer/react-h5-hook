@@ -1,18 +1,7 @@
-/*
- * @Author: your name
- * @Date: 2020-04-29 09:54:16
- * @LastEditTime: 2020-06-12 15:51:20
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \react-h5-hook\src\components\Swiper\index.js
- */
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import styles from './index.module.less';
-// const styles = {
-//   carousel:'color:red;'
-// }
+
 const Carousel = ({ children, selectedIndex = 1 }) => {
-  console.log(children);
 
   // 当切换的时候，改变的就是当前位置状态
   // 所以定义当前位置,可以通过传入的selectedIndex来控制最开始显示第几个轮播图,默认从1开始
