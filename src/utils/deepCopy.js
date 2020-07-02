@@ -1,6 +1,5 @@
 
-let a = [1, 1, 2]
-const deepCopy = function (target, map = new Map()) {
+export const deepCopy = function (target, map = new Map()) {
   if (typeof target === 'object') {
     let cloneTarget = Array.isArray(target) ? [] : {}
 
@@ -19,4 +18,3 @@ const deepCopy = function (target, map = new Map()) {
   }
 
 }
-deepCopy(a)
