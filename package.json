@@ -84,7 +84,9 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-plugin-jsx-control-statements": "^4.1.0"
+  },
   "jest": {
     "roots": [
       "<rootDir>/src"
@@ -136,6 +138,9 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      "jsx-control-statements"
     ]
   }
 }
